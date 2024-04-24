@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color : rgba(26, 93, 108, 0.606);
+    --button-hover: rgba(15, 51, 59, 0.784);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.container {
+    background: white;
+    max-width: 640px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 40px;
+}
+
+form button, form label, form input{
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+form input:focus{
+    outline: 3px solid var(--primary-color)
+}
+
+form button{
+    border: 2px solid black;
+    background: var(--primary-color);
+    color: white;
+    font-size: 22px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--button-hover);
+}
+
+td{
+    font-size: 16px;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+th{
+    text-align: left;
+}
+
+
+
+
+
+#resposta{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+.Sobrepeso { background: #FF9999; } 
+.Obesidade-grau-1 { background: #ff2c2c; } 
+.Obesidade-grau-2 { background: #c61010; } 
+.Obesidade-grau-3 { background: #820909; } 
+.Abaixo-do-peso { background: #FFFF99; } 
+.Peso-normal { background: #99FF99; }   
