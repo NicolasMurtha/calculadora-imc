@@ -1,7 +1,7 @@
 ## Como Executar Localmente:
 
 1. Clone o repositório.
-2. Baixe a extensão GO LIVE no Visual Studio Code.
+2. Baixe a extensão Live Server no Visual Studio Code.
    
    **OU**
    
